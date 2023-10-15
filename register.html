@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register FArbucks</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href='index.html'>FArbucks</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Coffee</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="register.html" class="tbl-hitam">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="register">
+        <div class="register">
+            <div class="center">
+                <h1>Register</h1>
+                <form action="">
+                  <div class="klm-txt">
+                    <input type="text" name="fullname" id="fullname" required>
+                    <span></span>
+                    <label>Full Name</label>
+                  </div>
+                  <div class="klm-txt">
+                    <input type="email" name="emails" id="emails" required>
+                    <span></span>
+                    <label>Email</label>
+                  </div>
+                  <div class="klm-txt">
+                    <input type="password" name="pass" id="pass" required>
+                    <span></span>
+                    <label>Password</label>
+                  </div>
+                  <div class="klm-txt">
+                    <input type="text" name="address" id="address" required>
+                    <span></span>
+                    <label>Address</label>
+                  </div>
+                  <div class="klm-txt">
+                    <input type="text" name="phone" id="phone" required>
+                    <span></span>
+                    <label>Phone Number</label>
+                  </div>
+                  <div class="terms">
+                    <input type="checkbox" name="agree" id="agree">
+                    <label for="agree">I agree to the <b>terms and conditions</b> as set out by the user agreement. </label>
+                  </div>
+                  <input type="submit" onclick="submitData()" value="Register">
+                  <div class="signin">
+                    <a href="#">Sign In</a>
+                  </div>
+                </form>
+              </div>
+        </div>
+    </section>
+
+    <div id="contact">
+        <div class="wrapper">
+            <div class="judul-footer"><a href=''>FArbucks</a></div>
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><a href="#">FArbucks Instagram</a></p><br>
+                    <p><a href="#">FArbucks Instagram</a></p><br>
+                    <p><a href="#">FArbucks LinkedIn</a></p><br>
+                    <p><a href="#">FArbucks Twitter</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <div class="semi-button">
+                    <p>History</p><br>
+                    <p>Innovation</p><br>
+                    <p>Teams</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3><a href="product.html">Product</a></h3>
+                    <div class="semi-button">
+                        <p>Coffee Powder</p><br>
+                        <p>Coffee Capsule</p><br>
+                        <p>Coffee Instant</p><br>
+                        <p>Coffee Drinks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2021. <b>FArbucks.</b> All Rights Reserved.
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
